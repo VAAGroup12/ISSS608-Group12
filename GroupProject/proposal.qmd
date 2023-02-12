@@ -75,20 +75,36 @@ The team would use R and Shiny to build up an interactive webpage that can show 
 
 The team wants to explore the loan amount distribution based on education level.  On our website, the user just needs to use the filter to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.
 
-![img_1](picture/2_pro1.jpeg)
+![](picture/2_pro1.jpeg)
 
 The website also can display the historical loan default distribution based on the bank location. The website can display the Singapore map and the historical loan bank distribution.
 
-![img_2](picture/3_pro2.jpeg)
+![](picture/3_pro2.jpeg)
 
 The website also can display the historical loan return situation base on different categories such as age, job, etc.  The bar chart can display different situations directly.
 
-![img_3](picture/4_pro3.jpeg)
+![](picture/4_pro3.jpeg)
 
-![img_4](picture/5_pro4.jpeg)
+Overview and Correlation Tab
+
+After giving the detailed information of our clients in terms of education status, bank location, and loan terms, we try to integrate the information together to see the correlation between the client\'s portrait and loan performance. The audience can use the select button to present their desired information in detail.
+
+In the graph of loan number & amount, the client\'s education status, account type, and job are all set as filter sectors, and the audience can have a clear picture of the amount of loan and number of rough bar charts and line graph respectively. The change of graph by selecting different items can show a general relationship and give more insight to our users.
+
+In the heat map and correlation plot, we try to quantify the relationship of multi variants. As the wiliness to loan is an important factor, the heat map shows who are banks major clients in terms of occupation. The overview is presented in the first place and users can check for more information in the tool kit. In the correlation graph, each element is corresponded to others and the colour depth shows their relationship, which provides reference for our data model training.
+
+![](picture/5_pro4.jpeg)
 
 ![](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230212200006.jpg)
 
 ![](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230212200013.jpg)
+
+The prediction result tab
+
+The aim of the prediction result tab is to deliver the final prediction result and the related detail information to users.
+
+For the tab, users will be able to input values for customerID, demographic attributes (e.g. highest education, job) and account attributes to get a prediction of the loan default or not , if so (we plan to add annotation to illustrate the meaning of 0 and 1 as well) , will also give detail of default loan term, number and amount.
+
+A selection bar of ID, Edu and Job will be posited for users to select the constraints. The final output will show as a big number figure, then if the result shows 0, it means the customer is likely to default, so the detail information will appear using the progress bar. But due to 3 different column, the scale of each bar will be different.
 
 ![](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230212200156.jpg)
