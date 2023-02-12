@@ -73,9 +73,15 @@ The team would use R and Shiny to build up an interactive webpage that can show 
 
 # Early Prototype/Storyboard
 
+The team wants to explore the loan amount distribution based on education level.  On our website, the user just needs to use the filter to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.
+
 ![img_1](picture/2_pro1.jpeg)
 
+The website also can display the historical loan default distribution based on the bank location. The website can display the Singapore map and the historical loan bank distribution.
+
 ![img_2](picture/3_pro2.jpeg)
+
+The website also can display the historical loan return situation base on different categories such as age, job, etc.  The bar chart can display different situations directly.
 
 ![img_3](picture/4_pro3.jpeg)
 
