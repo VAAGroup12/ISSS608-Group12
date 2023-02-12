@@ -33,13 +33,13 @@ The team aims to build a free website which can be used easily. This website doe
 
 Using various R packages, the team will extract, analyse, and visualize clients' performance and demographic data. And the team also will build an interactive R shiny application that can directly deliver the insight whether the client can be provided the loan and the amount of the loan and the time period of return.
 
-1.  we would use EDA and clustering techniques to explore the background data of clients , which can help us to display the users' portraits.
+1.  We would use EDA and clustering techniques to explore the background data of clients , which can help us to display the users' portraits.
 
 2.  Firstly, we need to know how the previous defaulters look like and which groups they belong to: We use demographic data and previous loans data to identify defaulters and then we divide them into groups. Using birthday data to define age of applications, type of employment to see the occupation of applications, longitude and latitude to see the location of applications, highest education level to define the education level of applications. There is also data of the location of branch which we will use to analyse which branch's loan is more likely to be defaulted.
 
 3.  Secondly, we will merge the data above to see what the timing characters defaulted loans have. As to the previous loans that customer had prior to the loan that we want to predict the performance, each of them will have a different systemloanid, but the same customer id for each customer. Date that loan application was created to show the creating period, date that the loan was approved to show the approve time, data that was settled to show the settle time, data of first payment due in case where the term is longer than 30 to identify the amount of the loan to show the different loan value, total repayment required to settle to show.
 
-4.  based on the historical loan data, the team will train a model that can predict the load default probability and also can provide the loan amount and the time period of return. Here is two statuses:
+4.  Based on the historical loan data, the team will train a model that can predict the load default probability and also can provide the loan amount and the time period of return. Here is two statuses:
 
     \(a\) If a client has historical loan data but does not have the loan now and they are applying for the loan, the model would predict whether can provide the loan based on the historical loan data(trainprevloans.csv) and show the loan detail information.
 
@@ -73,7 +73,7 @@ The team would use R and Shiny to build up an interactive webpage that can show 
 
 # Early Prototype/Storyboard
 
-The team wants to explore the loan amount distribution based on education level.  On our website, the user just needs to use the filter to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.
+The team wants to explore the loan amount distribution based on education level.  On our website, the user just needs to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.
 
 ![](picture/2_pro1.jpeg)
 
@@ -99,7 +99,7 @@ In the heat map and correlation plot, we try to quantify the relationship of mul
 
 ![](images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230212200013.jpg)
 
-The prediction result tab
+The Prediction Result Tab
 
 The aim of the prediction result tab is to deliver the final prediction result and the related detail information to users.
 

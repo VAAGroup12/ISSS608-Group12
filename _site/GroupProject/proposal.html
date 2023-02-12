@@ -182,10 +182,10 @@ ul.task-list li input[type="checkbox"] {
 <h1>Solution</h1>
 <p>Using various R packages, the team will extract, analyse, and visualize clients’ performance and demographic data. And the team also will build an interactive R shiny application that can directly deliver the insight whether the client can be provided the loan and the amount of the loan and the time period of return.</p>
 <ol type="1">
-<li><p>we would use EDA and clustering techniques to explore the background data of clients , which can help us to display the users’ portraits.</p></li>
+<li><p>We would use EDA and clustering techniques to explore the background data of clients , which can help us to display the users’ portraits.</p></li>
 <li><p>Firstly, we need to know how the previous defaulters look like and which groups they belong to: We use demographic data and previous loans data to identify defaulters and then we divide them into groups. Using birthday data to define age of applications, type of employment to see the occupation of applications, longitude and latitude to see the location of applications, highest education level to define the education level of applications. There is also data of the location of branch which we will use to analyse which branch’s loan is more likely to be defaulted.</p></li>
 <li><p>Secondly, we will merge the data above to see what the timing characters defaulted loans have. As to the previous loans that customer had prior to the loan that we want to predict the performance, each of them will have a different systemloanid, but the same customer id for each customer. Date that loan application was created to show the creating period, date that the loan was approved to show the approve time, data that was settled to show the settle time, data of first payment due in case where the term is longer than 30 to identify the amount of the loan to show the different loan value, total repayment required to settle to show.</p></li>
-<li><p>based on the historical loan data, the team will train a model that can predict the load default probability and also can provide the loan amount and the time period of return. Here is two statuses:</p>
+<li><p>Based on the historical loan data, the team will train a model that can predict the load default probability and also can provide the loan amount and the time period of return. Here is two statuses:</p>
 <p>(a) If a client has historical loan data but does not have the loan now and they are applying for the loan, the model would predict whether can provide the loan based on the historical loan data(trainprevloans.csv) and show the loan detail information.</p>
 <p>(b) If a client has historical loan data and has not returned all yet, the model also can base on the client’s relative data (Performance data and Demographic data) to predict the load default probability and also can provide the loan amount and the time period of return.</p></li>
 </ol>
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="early-prototypestoryboard" class="level1">
 <h1>Early Prototype/Storyboard</h1>
-<p>The team wants to explore the loan amount distribution based on education level. &nbsp;On our website, the user just needs to use the filter to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.</p>
+<p>The team wants to explore the loan amount distribution based on education level. &nbsp;On our website, the user just needs to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.</p>
 <p><img src="picture/2_pro1.jpeg" class="img-fluid"></p>
 <p>The website also can display the historical loan default distribution based on the bank location. The website can display the Singapore map and the historical loan bank distribution.</p>
 <p><img src="picture/3_pro2.jpeg" class="img-fluid"></p>
@@ -231,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="picture/5_pro4.jpeg" class="img-fluid"></p>
 <p><img src="images/微信图片_20230212200006.jpg" class="img-fluid"></p>
 <p><img src="images/微信图片_20230212200013.jpg" class="img-fluid"></p>
-<p>The prediction result tab</p>
+<p>The Prediction Result Tab</p>
 <p>The aim of the prediction result tab is to deliver the final prediction result and the related detail information to users.</p>
 <p>For the tab, users will be able to input values for customerID, demographic attributes (e.g.&nbsp;highest education, job) and account attributes to get a prediction of the loan default or not , if so (we plan to add annotation to illustrate the meaning of 0 and 1 as well) , will also give detail of default loan term, number and amount.</p>
 <p>A selection bar of ID, Edu and Job will be posited for users to select the constraints. The final output will show as a big number figure, then if the result shows 0, it means the customer is likely to default, so the detail information will appear using the progress bar. But due to 3 different column, the scale of each bar will be different.</p>
