@@ -47,7 +47,7 @@ Using various R packages, the team will extract, analyse, and visualize clients'
 
 # Data
 
-There are 3 data sets for train and another 3 for test:
+There are 3 [data](https://zindi.africa/competitions/data-science-nigeria-challenge-1-loan-default-prediction/data) sets for train and another 3 for test:
 
 1.  Demographic data (traindemographics.csv)
 2.  Performance data (trainperf.csv)
