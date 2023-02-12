@@ -5,6 +5,9 @@ website:
   title: "ISSS608-Group12"
   navbar:
     left:
+      - href: "GroupProject/proposal.html"
+        text: "Proposal"
+    right: 
       - href: index.qmd
         text: Home
       - about.qmd

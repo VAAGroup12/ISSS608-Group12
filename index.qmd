@@ -2,10 +2,20 @@
 title: "ISSS608-Group12"
 ---
 
-This is a Quarto website.
+# Summary 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Loan lending is an essential business activity for banks and loan default often occurs when a borrower takes money from the bank and does not repay back the loan on time. SuperLender, a local lending company, could suffer from revenue damage if it has incorrect predictions about its clients.
 
-```{r}
-1 + 1
-```
+In the visual analysis course, we have learned several software packages to conduct visual data analysis, and the Shiny APP can display various graphs on the dashboard to realize the interactive function with the audience. The Nigeria Bank's loan default prediction challenge is a data science problem from ZINDI Competition. By answering this question, this group project aims to create a flexible data interaction platform to predict the potential loan default risks for SuperLender's potential clients.
+
+The project mainly focuses on three questions:
+
+1\) How to effectively visualize the historical data of SuperLender?
+
+2\) What are the features of SuperLender's uses' portrait?
+
+3\) How to predict a client's performance based on his/her historical loan data?
+
+To answer these questions, an all-around method is conducted, beginning with EDA to analyze previous defaulters' features. Then a prediction model is trained to foresee the loan default probability for both repeat loans and new business risks.
+
+For more detail, please refer to our [proposal](GroupProject/proposal.html) here!
