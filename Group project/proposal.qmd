@@ -7,7 +7,7 @@ date: 11 February 2023
 
 # ![Caption](picture/1_theme.jpeg)
 
-# Motivation1
+# Motivation
 
 Providing profitable and high-impact loans to clients are the main business model of SuperLender. But it is necessary to predict the risks of providing loans to clients. Loan default can cause revenue damage. On the contrary, the inaccurate prediction of the risks can also hurt the reputation of company. Therefore, in this project, we focus on load default prediction which can help SuperLender grab the most revenue.
 
