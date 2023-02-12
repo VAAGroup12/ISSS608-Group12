@@ -1,5 +1,5 @@
 ---
-title: "Our Proposal"
+title: "Proposal"
 subtitle: "How to predict who will default on a loan?"
 author: "Xu Jiajie, Chen Yiman, Luo Zheng"
 date: 11 February 2023
