@@ -2,7 +2,7 @@
 title: "ISSS608-Group12"
 ---
 
-# Summary 
+# Summary
 
 Loan lending is an essential business activity for banks and loan default often occurs when a borrower takes money from the bank and does not repay back the loan on time. SuperLender, a local lending company, could suffer from revenue damage if it has incorrect predictions about its clients.
 

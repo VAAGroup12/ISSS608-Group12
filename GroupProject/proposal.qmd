@@ -87,11 +87,11 @@ The website also can display the historical loan return situation base on differ
 
 Overview and Correlation Tab
 
-After giving the detailed information of our clients in terms of education status, bank location, and loan terms, we try to integrate the information together to see the correlation between the client\'s portrait and loan performance. The audience can use the select button to present their desired information in detail.
+After giving the detailed information of our clients in terms of education status, bank location, and loan terms, we try to integrate the information together to see the correlation between the client's portrait and loan performance. The audience can use the select button to present their desired information in detail.
 
-In the graph of loan number & amount, the client\'s education status, account type, and job are all set as filter sectors, and the audience can have a clear picture of the amount of loan and number of rough bar charts and line graph respectively. The change of graph by selecting different items can show a general relationship and give more insight to our users.
+In the graph of loan number & amount, the client's education status, account type, and job are all set as filter sectors, and the audience can have a clear picture of the amount of loan and number of rough bar charts and line graph respectively. The change of graph by selecting different items can show a general relationship and give more insight to our users.
 
-In the heat map and correlation plot, we try to quantify the relationship of multi variants. As the wiliness to loan is an important factor, the heat map shows who are banks major clients in terms of occupation. The overview is presented in the first place and users can check for more information in the tool kit. In the correlation graph, each element is corresponded to others and the colour depth shows their relationship, which provides reference for our data model training.
+In the heat map and correlation plot, we try to quantify the relationship of multi variants. As the wiliness to loan is an important factor, the heat map shows who are banks major clients in terms of occupation. The overview is presented in the first place and users can check for more information in the tool kit. In the correlation graph, each element is corresponded to others and the colour depth shows their relationship, which provides reference for our data model training.1
 
 ![](picture/5_pro4.jpeg)
 
