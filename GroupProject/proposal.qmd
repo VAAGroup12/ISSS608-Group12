@@ -73,7 +73,7 @@ The team would use R and Shiny to build up an interactive webpage that can show 
 
 # Early Prototype/Storyboard
 
-The team wants to explore the loan amount distribution based on education level.  On our website, the user just needs to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly.
+The team wants to explore the loan amount distribution based on education level.  On our website, the user just needs to filter out different terms and it can show the boxplots of different education levels. It would show the median loan amount directly. 111
 
 ![](picture/2_pro1.jpeg)
 
